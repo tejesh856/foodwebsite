@@ -1,0 +1,557 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+}
+body{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 966px;
+    width: 1366px;
+    background: #FBFBFB 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+.body2{
+    top: 0px;
+    left: 0px;
+    width: 1366px;
+    height: 966px;
+    background: linear-gradient(rgb(0, 0, 0,0.6),rgba(0,0,0,0.6)) 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+    
+}
+
+
+header{
+    background:linear-gradient(180deg, #9D0E0E00 0%, #4F0707 100%) 0% 0% no-repeat padding-box,url('imge.jpg');
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    width: 1366px;
+    height: 480px;
+    mix-blend-mode: multiply;
+
+    opacity: 1;
+    
+    
+    
+
+    
+    
+}
+.menu{
+    position:absolute;
+    top:480px;
+    left:0px;
+    width:1366px;
+    height:486px;
+    background:white;
+    opacity: 0.6;
+
+    
+}
+
+
+.box1{
+    position: absolute;
+    left: 1015px;
+    top:17px;
+    width: 250px;
+    height:46px;
+
+    opacity: 1;
+    
+}
+
+.login{
+    
+    color:white;
+    text-decoration: none;
+    position:absolute;
+    top:29px;
+    left: 1015px;
+    width: 43px;
+    height: 23px;
+    text-align: left;
+    font: normal normal medium 16px/25px 'Poppins';
+    letter-spacing: 0px;
+    opacity: 1;
+    pointer-events: none;
+    cursor: default;
+    
+
+
+}
+.Create a{
+    position: absolute;
+    top: 29px;
+    left: 1099px;
+    width: 152px;
+    height: 23px;
+    text-align: left;
+    font: normal normal medium 16px/25px 'Poppins';
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    text-decoration: none;
+    pointer-events: none;
+    cursor: default;
+
+}
+.box2{
+    position: absolute;
+    top: 17px;
+    left: 1084px;
+    width: 181px;
+    height: 46px;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+    opacity: 1;
+}
+.box3{
+    position:absolute;
+    top: 81px;
+    left: 610px;
+    width: 147px;
+    height: 147px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+    border-radius: 147px;
+}
+.logo{
+    position:absolute;
+    top: 105px;
+    left: 649px;
+    width: 68px;
+    height: 99px;
+    text-align: left;
+    font: normal normal 600 70px/106px 'Poppins';
+    letter-spacing: 0px;
+    color: #EB2929;
+    opacity: 1;
+}
+.heading{
+    position: absolute;
+    top: 250px;
+    left: 306px;
+    width: 758px;
+    height: 51px;
+    text-align: left;
+    font: normal normal 600 36px/55px 'Poppins';
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.box4{
+    position: absolute;
+    top: 339px;
+    left: 312px;
+    width: 245px;
+    height: 60px;
+    background:white 0% 0% no-repeat padding-box;
+    
+}
+.box5{
+    position: absolute;
+    top: 339px;
+    left: 578px;
+    width: 477px;
+    height: 60px;
+    background: white 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.selectlocation{
+    position: absolute;
+    top: 360px;
+    left: 335px;
+    width: 165px;
+    height: 21px;
+    text-align: left;
+    font: normal normal normal 15px/23px 'Poppins';
+    letter-spacing: 0px;
+    color: #636F88;
+    opacity: 1;
+}
+.icon{
+    position:absolute;
+    top: 362px;
+    left: 602px;
+    width: 20px;
+    height: 20px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    opacity: 0.97;
+}
+.buttonsearch{
+    position: relative;
+    border: none;
+    height:20px;
+    width: 20px;
+    background-color:#ffffff;
+}
+
+#circle{
+    position:relative;
+    height: 12px;
+    width:12px;
+    left:1px;
+    border-radius: 12px;
+    border:2px solid #74819E;
+    
+}
+#stick{
+    position:relative;
+    height:2px;
+    width:10px;
+    font-weight:0px;
+    border: 0px solid #74819E;
+    transform: rotate(58deg);
+    left:6px;
+    border-radius: 2px;
+    background-color: #74819E;
+
+
+}
+.findrestaurents{
+    position:absolute;
+    top: 360px;
+    left: 638px;
+    width: 167px;
+    height: 21px;
+    text-align: left;
+    font: normal normal normal 15px/23px 'Poppins';
+    letter-spacing: 0px;
+    color: #636F88;
+    opacity: 1;
+
+}
+span{
+    position:absolute;
+    top: 48px;
+    left: 113px;
+    width: 239px;
+    height: 43px;
+    text-align: left;
+    font: normal normal bold 30px/46px 'Poppins';
+    letter-spacing: 0px;
+    color: #192f60;
+    opacity: 1;
+}
+p{
+    position: absolute;
+    top: 98px;
+    left: 113px;
+    width: 331px;
+    height: 25px;
+    text-align: left;
+    font: normal normal normal 18px/27px 'Poppins';
+    letter-spacing: 0px;
+    color: #8C96AB;
+    opacity: 1;
+}
+.menu1{
+    position: absolute;
+    top: 156px;
+    left: 113px;
+    width: 360px;
+    height: 160px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+img{
+    position: absolute;
+    top: 156px;
+    left: 113px;
+    width: 160px;
+    height: 160px;
+    opacity: 1;
+}
+.description1{
+    position: absolute;
+    top: 181px;
+    left: 302px;
+    width: 88px;
+    height: 25px;
+    text-align: left;
+    font: normal normal 600 18px/27px 'Poppins';
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+.exclusive1{
+    position: absolute;
+    top: 210px;
+    left: 302px;
+    width: 138px;
+    height: 62px;
+    text-align: left;
+    font: normal normal normal 14px/21px 'Poppins';
+    letter-spacing: 0px;
+    color: #8C96AB;
+    opacity: 1;
+}
+.menu2{
+    position: absolute;
+    top: 156px;
+    left: 503px;
+    width: 360px;
+    height: 160px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+.lunch{
+    position:absolute;
+    top: 156px;
+    left: 503px;
+    width: 160px;
+    height: 160px;
+    opacity: 1;
+}
+.description2{
+    position: absolute;
+    top: 181px;
+    left: 692px;
+    width: 55px;
+    height: 25px;
+    text-align: left;
+    font: normal normal 600 18px/27px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+.exclusive2{
+    position: absolute;
+    top: 210px;
+    left: 692px;
+    width: 138px;
+    height: 62px;
+    text-align: left;
+    font: normal normal normal 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #8C96AB;
+    opacity: 1;
+}
+.menu3{
+    position:absolute;
+    top: 156px;
+    left: 893px;
+    width: 360px;
+    height: 160px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1
+
+}
+.snacks{
+    position: absolute;
+    top: 156px;
+    left: 893px;
+    width: 160px;
+    height: 160px;
+    opacity: 1;
+}
+.description3{
+    position: absolute;
+    top: 181px;
+    left: 1082px;
+    width: 66px;
+    height: 25px;
+    text-align: left;
+    font: normal normal 600 18px/27px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+.exclusive3{
+    position: absolute;
+    top: 210px;
+    left: 1082px;
+    width: 138px;
+    height: 62px;
+    text-align: left;
+    font: normal normal normal 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #8C96AB;
+    opacity: 1;
+}
+.loginbox{
+    position: absolute;
+    top: 188px;
+    left: 455px;
+    width: 456px;
+    height: 374px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    opacity: 1;
+    cursor: pointer;
+}
+h3{
+    position: absolute;
+    top: 212px;
+    left: 493px;
+    width: 81px;
+    height: 43px;
+    text-align: left;
+    font: normal normal 600 30px/46px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+    cursor: pointer;
+
+}
+#cross {
+    width:17px;
+    height:17px;
+    position:absolute;
+    top: 222px;
+    left: 872px;
+    transform: matrix(0, 1, -1, 0, 0, 0);
+    opacity: 1;
+    transform:rotate(45deg);
+    -ms-transform:rotate(45deg); /* IE 9 */
+    -webkit-transform:rotate(45deg); /* Safari and Chrome */
+   
+ }
+ 
+ #cross:before, #cross:after {
+   content: "";
+   position: absolute;
+   z-index: -1;
+   background:#192F60;
+   
+ }
+ 
+ #cross:before {
+   left: 50%;
+   width: 10%;
+   margin-left: -15%;
+   height: 90%;
+ }
+ 
+ #cross:after {
+   top: 50%;
+   height: 10%;
+   margin-top: -15%;
+   width: 90%;
+ }
+ #cross{
+     cursor: pointer;
+ }
+ .gmail{
+    position: absolute;
+    top: 287px;
+    left: 486px;
+    width: 398px;
+    height: 50px;
+    background: transparent 0% 0% no-repeat padding-box;
+    border: 1px solid #C7C7C7;
+    border-radius: 6px;
+    opacity: 1;
+    cursor: pointer;
+ }
+ .linkgmail{
+    position: absolute;
+    top: 13px;
+    left: 128px;
+    width: 185px;
+    height: 25px;
+    text-align: left;
+    font: normal normal medium 18px/27px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 0.8;
+    cursor: pointer;
+ }
+ .gmailicon{
+     position: absolute;
+     width:29px;
+     height:22px;
+     top: 12px;
+     left: 87px;
+     
+ }
+ .facebook{
+     position: absolute;
+     top: 359px;
+     left: 486px;
+     width: 398px;
+     height: 50px;
+     background: #FFFFFF 0% 0% no-repeat padding-box;
+     border: 1px solid #C7C7C7;
+     border-radius: 6px;
+     opacity: 1;
+     cursor: pointer;
+
+
+ }
+ .facebookicon{
+     position: absolute;
+    top: 10px;
+    left: 70px;
+    width: 28px;
+    height: 28px;
+    background: #3B5998 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius:28px ;
+ }
+ .linkfacebook{
+     position: absolute;
+     top: 12px;
+     left: 110px;
+     width: 219px;
+     height: 25px;
+     text-align: left;
+     font: normal normal medium 18px/27px Poppins;
+     letter-spacing: 0px;
+     color: #192F60;
+     opacity: 0.8;
+     cursor: pointer;
+
+ }
+ .line{
+    top: 502px;
+    left: 486px;
+    width: 389px;
+    height: 0px;
+    border: 1px solid #C7C7C7;
+    opacity: 1;
+ }
+ .content{
+    position: absolute;
+    top: 519px;
+    left: 570px;
+    width: 257px;
+    height: 23px;
+    text-align: left;
+    font: normal normal normal 16px/25px Poppins;
+    letter-spacing: 0px;
+    opacity: 1;
+    
+    
+ }
+ 
+ .index{
+     position:relative;
+     text-decoration: none;
+     left: 10px;
+     color:red;
+     font: normal normal normal 16px/25px 'Poppins';
+     letter-spacing: 0px;
+     
+ }
+ iframe{
+     position: absolute;
+     top: 0px;
+     left: 0px;
+     border: 1px solid black;
+     background-color: #EB2929;
+ }
+ 
+ 
